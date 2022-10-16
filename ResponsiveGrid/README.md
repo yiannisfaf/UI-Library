@@ -8,4 +8,4 @@
 
 ## Responsive Grid
 
-![alt text](https://github.com/yiannisfaf/UI-Library/ResponsiveGrid/ResponsiveGrid.gif 'Responsive Grid Gif')
+![alt text](https://github.com/yiannisfaf/UI-Library/blob/main/ResponsiveGrid/ResponsiveGrid.gif)
