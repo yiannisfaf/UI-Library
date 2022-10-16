@@ -1,0 +1,45 @@
+// COLOR VARIABLES
+$color-primary: #000072;
+$color-primary-dark: #000058;
+
+$color-secondary: #101d2c;
+
+$color-grey-light-1: #f9f7f6;
+$color-grey-light-2: #aaa;
+
+$color-grey-dark-1: #54483a;
+$color-grey-dark-2: #6d5d4b;
+
+// FONT VARIABLES
+$font-primary: 'Nunito', sans-serif;
+$font-display: 'Josefin Sans', sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10px/16px(default) = 62.5% -> 1rem = 10px
+}
+
+body {
+  font-family: $font-primary;
+  color: $color-grey-dark-2;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  display: grid;
+  //Give column start and end names so they are easier to use within application.
+  //NOTE: names can be given to repeat() columns too e.g. col-start-1...col-start-8
+  grid-template-columns:
+    [center-start] repeat(4, [col-start] minmax(min-content, 14rem) [col-end])
+    [full-end];
+  grid-template-rows: 8vh repeat(3, 1fr);
+}

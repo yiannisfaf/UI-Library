@@ -1,0 +1,11 @@
+.header {
+  background-color: $color-primary;
+  grid-row: 1;
+  grid-column: 1 / 6;
+}
+
+.logo {
+  color: white;
+  margin: 2rem;
+  font-size: 2.5rem;
+}
