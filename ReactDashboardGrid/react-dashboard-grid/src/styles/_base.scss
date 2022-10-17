@@ -38,8 +38,6 @@ body {
   display: grid;
   //Give column start and end names so they are easier to use within application.
   //NOTE: names can be given to repeat() columns too e.g. col-start-1...col-start-8
-  grid-template-columns:
-    [center-start] repeat(4, [col-start] minmax(min-content, 14rem) [col-end])
-    [full-end];
+  grid-template-columns: 1fr;
   grid-template-rows: 8vh repeat(3, 1fr);
 }

@@ -1,0 +1,7 @@
+.body {
+    display: grid;
+    grid-template-columns: minmax(min-content, 25rem), 1fr;
+    grid-template-rows: 3 / 3;
+    grid-gap: 2rem;
+    margin: 2rem;
+}
