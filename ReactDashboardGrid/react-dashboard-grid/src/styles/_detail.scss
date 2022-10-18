@@ -1,9 +1,7 @@
-.overview {
+.detail {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    //grid-auto-rows sets the row height to be a set size
-    // grid-auto-rows: 20rem;
-    grid-row: 2;
+    grid-row: 5;
     grid-gap: 2rem;
     margin: 2rem;
 

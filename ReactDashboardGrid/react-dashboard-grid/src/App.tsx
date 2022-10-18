@@ -3,6 +3,7 @@ import './styles/main.scss';
 import Header from './components/Header';
 import Overview from './components/Overview';
 import Body from './components/Body';
+import Detail from './components/Detail';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Overview />
       <Body />
+      <Detail />
     </body>
   );
 }
